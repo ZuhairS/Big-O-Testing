@@ -163,14 +163,14 @@ class MinMaxStackQueue
   def max
     max = []
     max << @stack1.max unless @stack1.empty?
-    max << @stack2.max unless @stack2.empty
+    max << @stack2.max unless @stack2.empty?
     max.max
   end
 
   def min
     min = []
     min << @stack1.min unless @stack1.empty?
-    min << @stack2.min unless @stack2.empty
+    min << @stack2.min unless @stack2.empty?
     min.min
   end
 
